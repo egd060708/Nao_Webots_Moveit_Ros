@@ -1,0 +1,8 @@
+prefix=/home/lu/ros_catkin/ros_webots/catkin_nao/devel
+
+Name: nao_meshes
+Description: Description of nao_meshes
+Version: 0.1.13
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

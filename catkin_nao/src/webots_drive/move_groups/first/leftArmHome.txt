@@ -1,0 +1,2 @@
+leftArmHome.txt 1 4 0.032
+0 0 0 0 

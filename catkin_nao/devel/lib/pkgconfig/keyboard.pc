@@ -1,0 +1,8 @@
+prefix=/home/lu/ros_catkin/ros_webots/catkin_nao/devel
+
+Name: keyboard
+Description: Description of keyboard
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

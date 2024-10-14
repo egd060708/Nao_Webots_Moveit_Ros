@@ -1,0 +1,9 @@
+<launch>
+  <node 
+    name="keyboard_ctrl" 
+    pkg="keyboard" 
+    type="key_ctrl_node" 
+    respawn="false"    
+    output="screen">   
+  </node>
+</launch>

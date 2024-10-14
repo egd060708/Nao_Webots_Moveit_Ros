@@ -1,0 +1,8 @@
+prefix=/home/lu/ros_catkin/ros_webots/catkin_nao/install
+
+Name: audio_analyze
+Description: Description of audio_analyze
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

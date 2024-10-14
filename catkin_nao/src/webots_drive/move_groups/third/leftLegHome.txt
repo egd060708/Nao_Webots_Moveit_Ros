@@ -1,0 +1,2 @@
+leftLegHome.txt 1 3 0.032
+0 0 0 

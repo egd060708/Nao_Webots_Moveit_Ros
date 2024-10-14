@@ -1,0 +1,6 @@
+<launch>
+
+    <node name="beat_check" type="beat_check.py" pkg="audio_analyze" output="screen" />
+
+
+</launch>

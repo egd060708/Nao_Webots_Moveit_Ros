@@ -1,0 +1,8 @@
+prefix=/home/lu/ros_catkin/ros_webots/catkin_nao/devel
+
+Name: webots_drive
+Description: Description of webots_drive
+Version: 0.0.0
+Cflags: -I/home/lu/ros_catkin/ros_webots/catkin_nao/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy sensor_msgs std_msgs message_runtime tf geometry_msgs actionlib moveit_msgs actionlib_msgs moveit_msgs moveit_ros_planning_interface moveit_visual_tools

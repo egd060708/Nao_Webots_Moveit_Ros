@@ -1,0 +1,2 @@
+leftFootHome.txt 1 2 0.0833333
+0 0 

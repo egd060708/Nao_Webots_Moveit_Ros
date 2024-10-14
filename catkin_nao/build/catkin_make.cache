@@ -1,0 +1,2 @@
+audio_analyze:keyboard:nao_meshes:nao_moveit_config:nao_robot/nao_apps:nao_robot/nao_bringup:nao_robot/nao_description:nao_robot/nao_robot:webots_drive:webots_ros
+-DCATKIN_DEVEL_PREFIX=/home/lu/ros_catkin/ros_webots/catkin_nao/devel -DCMAKE_INSTALL_PREFIX=/home/lu/ros_catkin/ros_webots/catkin_nao/install -G Unix Makefiles

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<launch>
+
+  <param name="/use_sim_time" value="true" />
+  <!-- 启动 Webots -->
+  <arg name="no_gui" default="false," doc="Start Webots with minimal GUI"/>
+  <include file="$(find webots_ros)/launch/webots.launch">
+    <arg name="mode" value="realtime"/>
+    <arg name="no_gui" value="$(arg no_gui)"/>
+    <arg name="world" value="$(find webots_drive)/worlds/dancing_nao.wbt"/>
+  </include>
+
+  <!-- 启动publisher -->
+  <node name="nao_state_publisher" pkg="webots_drive" type="motor_state_publisher_moveit" output="screen" />
+
+  <!-- 启动follower -->
+  <node name="nao_target_follower" pkg="webots_drive" type="trajectory_follower_moveit" output="screen" />
+
+  <!-- 加载模型 -->
+  <!-- <include file="$(find nao_description)/launch/robot_state_publisher.launch" /> -->
+
+  <!-- 打开rviz和moveit -->
+  <include file="$(find nao_moveit_config)/launch/moveit_planner.launch" />
+
+</launch>

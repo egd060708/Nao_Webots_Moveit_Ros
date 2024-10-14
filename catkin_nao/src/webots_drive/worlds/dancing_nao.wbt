@@ -1,0 +1,29 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "/home/lu/webots/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "/home/lu/webots/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "/home/lu/webots/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "/home/lu/webots/projects/robots/softbank/nao/protos/Nao.proto"
+
+WorldInfo {
+  basicTimeStep 16
+}
+Viewpoint {
+  orientation -0.20394748941559404 0.010288388661223117 0.9789277657824562 3.042920193513192
+  position 1.757351605130328 -0.16129413156764738 1.0383683093873144
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+}
+Nao {
+  version "V5 (blue)"
+  controller "ros"
+  controllerArgs [
+    "--clock"
+    "--use-sim-time"
+    "--name=nao"
+  ]
+}

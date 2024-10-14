@@ -1,0 +1,16 @@
+<launch>
+  <node 
+    name="move_group_interface_tutorial" 
+    pkg="webots_drive" 
+    type="moveit_planner" 
+    respawn="false"    
+    output="screen">   
+  </node>
+  <node 
+    name="move_group_interface_tutorial1" 
+    pkg="webots_drive" 
+    type="moveit_planner1" 
+    respawn="false"    
+    output="screen">   
+  </node>
+</launch>

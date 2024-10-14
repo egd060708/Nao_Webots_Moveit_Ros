@@ -1,0 +1,9 @@
+<launch>
+  <node 
+    name="file_io" 
+    pkg="webots_drive" 
+    type="file_test" 
+    respawn="false"    
+    output="screen">   
+  </node>
+</launch>

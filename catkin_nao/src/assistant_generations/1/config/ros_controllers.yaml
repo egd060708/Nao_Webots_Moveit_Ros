@@ -1,0 +1,196 @@
+nao_position_controller:
+  type: position_controllers/JointTrajectoryController
+  joints:
+    - LShoulderPitch
+    - LShoulderRoll
+    - LElbowYaw
+    - LElbowRoll
+    - LWristYaw
+    - RShoulderPitch
+    - RShoulderRoll
+    - RElbowYaw
+    - RElbowRoll
+    - RWristYaw
+    - HeadYaw
+    - HeadPitch
+    - LHipPitch
+    - LKneePitch
+    - LAnklePitch
+    - LAnkleRoll
+    - RHipPitch
+    - RKneePitch
+    - RAnklePitch
+    - RAnkleRoll
+    - LHand
+    - RHand
+    - LShoulderPitch
+    - LShoulderRoll
+    - LElbowYaw
+    - LElbowRoll
+    - LWristYaw
+    - RShoulderPitch
+    - RShoulderRoll
+    - RElbowYaw
+    - RElbowRoll
+    - RWristYaw
+  gains:
+    LShoulderPitch:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    LShoulderRoll:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    LElbowYaw:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    LElbowRoll:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    LWristYaw:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    RShoulderPitch:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    RShoulderRoll:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    RElbowYaw:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    RElbowRoll:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    RWristYaw:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    HeadYaw:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    HeadPitch:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    LHipPitch:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    LKneePitch:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    LAnklePitch:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    LAnkleRoll:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    RHipPitch:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    RKneePitch:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    RAnklePitch:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    RAnkleRoll:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    LHand:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    RHand:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    LShoulderPitch:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    LShoulderRoll:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    LElbowYaw:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    LElbowRoll:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    LWristYaw:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    RShoulderPitch:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    RShoulderRoll:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    RElbowYaw:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    RElbowRoll:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    RWristYaw:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1

@@ -1,0 +1,8 @@
+prefix=/home/lu/ros_catkin/ros_webots/catkin_nao/devel
+
+Name: nao_moveit_config
+Description: Description of nao_moveit_config
+Version: 0.0.11
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

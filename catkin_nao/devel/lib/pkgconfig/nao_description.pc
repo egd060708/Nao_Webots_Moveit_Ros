@@ -1,0 +1,8 @@
+prefix=/home/lu/ros_catkin/ros_webots/catkin_nao/devel
+
+Name: nao_description
+Description: Description of nao_description
+Version: 0.5.15
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
